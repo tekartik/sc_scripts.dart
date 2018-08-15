@@ -1,0 +1,27 @@
+name: tekartik_sc_scripts
+version: 0.1.0
+author: Alexandre Roux Tekartik <alex@tekartik.com>
+homepage: https://github.com/tekartik/sc.dart
+environment:
+  sdk: '>=2.0.0-dev.58 <3.0.0'
+
+dependencies:
+  tekartik_sc:
+    git:
+      url: git://github.com/tekartik/sc.dart
+      ref: dart2
+    version: '>=0.7.0'
+
+#dependency_overrides:
+#  process_run:
+#    git: git://github.com/tekartik/process_run.dart
+#    path: ../process_run.dart
+
+executables:
+  scpull:
+  scstatus:
+  screvert:
+  scpp:
+  scclone:
+  sccheckgit:
+  sccheckhg:
