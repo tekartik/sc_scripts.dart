@@ -1,4 +1,6 @@
 #!/usr/bin/env dart
 library tekartik_sc.bin.sccheckgit;
 
-export 'package:tekartik_sc/bin/sccheckgit.dart';
+import 'package:tekartik_sc/bin/sccheckgit.dart' as _;
+
+main(List<String> arguments) => _.main();
